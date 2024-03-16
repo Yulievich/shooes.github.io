@@ -1,0 +1,174 @@
+.slider{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    color: white;
+  }
+
+  .item1, .item2, .item3, .item4, .item5 {
+    width: 18%;
+    height: 100%; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .item2, .item3, .item4, .item5 {
+    margin-left: 2.5%;
+  }
+
+  .slider-image, .slider-text{
+    width: 50%;
+    height: 100%;
+  }
+
+  .slider-image{
+    border-radius: 100%;
+  }
+
+  .slider-text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider-title{
+    margin-top: 20%;
+    text-decoration: underline;
+  }
+
+  .slider-title, .slider-about-shooes{
+    font-size: 115%;
+    font-weight: 500;
+    height: 30%;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  @media (max-width: 1280px) {
+    .slider {
+      width: 96%;
+      margin-left: 2.5%;
+      margin-top: 2%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .slider {
+      width: 96%;
+      margin-left: 2.5%;
+      margin-top: 2%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .slider {
+      width: 90%;
+      margin-left: 3%;
+      margin-top: 2%;
+    }
+  }
+
+  @media (width: 375px), (width: 412px), (width: 414px), (width: 390px), (width: 430px), (width: 360px){
+    .slider {
+      flex-direction: column;
+      height: 2000px;
+      width: 96%;
+      margin-left: 3%;
+      margin-top: 2%;
+    }
+    .item1, .item2, .item3, .item4, .item5 {
+      width: 100%;
+      margin-left: 1%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    .slider-title, .slider-about-shooes{
+      font-size: 300%;
+      margin-top: 6%;
+    }
+  }
+
+  @media(min-width: 1281px){
+    .slider{
+     margin-left: 2%;
+     width: 98%;
+    }
+  }
+
+  @media(width: 820px), (width: 853px){
+    .slider {
+      flex-direction: column;
+      height: 2000px;
+      width: 96%;
+      margin-left: 3%;
+      margin-top: 2%;
+    }
+    .item1, .item2, .item3, .item4, .item5 {
+      width: 56%;
+      margin-left: 1%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    .slider-title, .slider-about-shooes{
+      font-size: 260%;
+      margin-top: 6%;
+    }
+  }
+
+  @media (width: 1024px) {
+    .slider {
+      flex-direction: column;
+      height: 2000px;
+      width: 96%;
+      margin-left: 3%;
+      margin-top: 2%;
+    }
+    .item1, .item2, .item3, .item4, .item5 {
+      width: 72%;
+      margin-left: 1%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    .slider-title, .slider-about-shooes{
+      font-size: 240%;
+      margin-top: 10%;
+    }
+  }
+
+  @media (width:280px) {
+      .slider {
+        flex-direction: column;
+        height: 2000px;
+        width: 96%;
+        margin-left: 3%;
+        margin-top: 2%;
+      }
+      .item1, .item2, .item3, .item4, .item5 {
+        width: 72%;
+        margin-left: 6%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+      .slider-title, .slider-about-shooes{
+        font-size: 240%;
+        margin-top: 10%;
+      }
+  }
+
+  @media (width: 1024px) and (height: 600px) {
+    .item1, .item2, .item3, .item4, .item5{
+        width: 95%;
+      }
+    .slider-title, .slider-about-shooes, .slider-text{
+      padding: 0;
+      margin: 0;
+    }
+    .slider-title{
+      margin-top: 10%;
+      padding: 10%;
+    }
+  }
